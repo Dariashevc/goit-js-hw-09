@@ -6,14 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Form</title>
     <link rel="stylesheet" href="./css/styles.css" />
+    <script type="module" defer src="./js/2-form.js"></script>
   </head>
   <body>
     <section>
-      <a href="./index.html" class="page-link">Go to home</a>
+      <a href="./index.html">Go to home</a>
+      <h1>Welcome to Form</h1>
       <form class="feedback-form" autocomplete="off">
         <label>
           Email
-          <input type="email" name="email" autofocus />
+          <input type="email" name="email" autofocus placeholder="Type area" />
         </label>
         <label>
           Message
@@ -22,6 +24,5 @@
         <button type="submit">Submit</button>
       </form>
     </section>
-    <script type="module" src="./js/2-form.js"></script>
   </body>
 </html>
